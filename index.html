@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Ensure proper rendering of text -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Better usability across different devices -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>To do app</title>
+  </head>
+  <body>
+    <h1>To do app</h1>
+    <div class="mainContainer">
+      <p>Write your task and click "Add to do" button</p>
+      <form id="toDoForm">
+        <input type="text" id="toDoTaskInput" placeholder="Write task..." />
+        <button id="addButton" disabled="true">Add to do</button>
+      </form>
+      <ul id="toDoList" class="list"></ul>
+      <ul id="completedList" class="list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
